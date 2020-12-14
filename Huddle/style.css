@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+  }
+  
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 0 30px;
+  
+  }
+  
+  .firstbtn{
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+  }
+  
+  .btn2 {
+    padding: 10px 45px;
+    border-radius: 50px;
+    background-color: #ff52bf;
+    color: white;
+    font-weight: 700;
+    font-size: .9rem;
+    text-decoration: none;
+  }
+  
+  .header {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 0;
+    display: block;
+    background-image: url(images/bg-hero-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:hsl(193, 100%, 96%)
+  }
+  
+  .header .container {
+    min-height: calc(100vh - 200px);
+    align-items: center;
+    text-align: center;
+  }
+  
+  .header .container .main{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+  }
+  
+  .header .container .main .logo {
+    width: 300px;
+  }
+  
+  .firstbtn {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .header .container .mockups {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  }
+  
+ .mockups1 h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+   .mockups1 p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+  }
+  
+  .firstbtn {
+    padding: 15px 50px;
+    font-size: 1rem;
+  }
+  
+  .mockupsimg img {
+    max-width: 600px;
+    margin-top: 40px;
+  }
+  
+  .pages {
+    padding: 50px 0;
+  }
+  
+   .pages-item {
+    padding: 50px 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+   flex-direction: column-reverse;
+  }
+  .pages-img{
+      display: flex;
+    float: right;
+  }
+  
+  .pages-info {
+    margin-top: 30px;
+  }
+  
+  .pages-info h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  
+  .pages-info p {
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: hsl(192, 100%, 9%);
+  }
+  
+  .middle {
+    display:flex;
+    padding: 50px 0;
+    margin-bottom: -100px;
+  }
+  
+  
+  .lastbtn {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+  }
+  .lastbutton{
+    padding: 10px 45px;
+    border-radius: 50px;
+    background-color: #ff52bf;
+    color: white;
+    font-weight: 700;
+    font-size: .9rem;
+    text-decoration: none;
+    
+  }
+  
+   .lastbtn h2 {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  .foot {
+    background-color: #00252e;
+    color: white;
+    padding: 100px 0 30px 0;
+  }
+  
+  .foot .container {
+    width: 100%;
+    display: flex;
+  }
+  
+  .foot-info {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .foot-1 {
+    margin-top: 30px;
+  }
+  
+   .foot-1 ul {
+   list-style: none;
+  }
+  
+  .foot-1 ul li {
+    margin-top: 25px;
+  }
+  
+  .foot-1 ul li .logo {
+    width: 200px ;
+    margin-top: 15px;
+    background-color: antiquewhite;
+  }
+  
+   .foot-1 ul li .contact {
+    display: flex;
+     align-items: start;
+     justify-content: start;
+  }
+  
+   .foot-1 ul li .contact img {
+    margin-top: 10px;
+    width: 15px;
+    
+  }
+  
+  .foot-1 ul li .contact p {
+    font-size: 1rem;
+    margin-left: 20px;
+    
+
+  }
+  
+  
+   .foot-2 ul, .foot-3 ul {
+    list-style: none;
+    margin-top: 10px;
+    
+  }
+
+  .foot-2 ul li, .foot-3 ul li {
+    margin-top: 18px;
+    
+    
+    
+  }
+  
+  .foot-2 ul li a, .foot-3 ul li a {
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+    .foot-4 {
+    text-align: right;
+    font-size: 40px;
+  }
+  .foot-2,.foot-3,.foot-4{
+      margin-top: 70px;
+  }
+  
+   .copyright {
+    margin-top: 30px;
+    text-align: right;
+    font-size: 0.6rem;
+    padding-top: 300px;
+  }
+  
+  
+  @media only screen and (min-width: 760px) {
+    .pages-item {
+     
+    flex-direction: row;
+    padding: 50px 100px;
+    
+    justify-content: center;
+    align-items: center;
+     text-align: left;
+    }
+    .pages-info {
+      margin-right: 50px;
+    }
+    .pages-img{
+        float:right;
+    }
+   .pages-info h2 {
+      font-size: 1.5rem;
+    }
+    .pages-info p {
+      font-size: 1rem;
+    }
+    .pages-item {
+      flex-direction: row-reverse;
+    }
+    .pages-info {
+      margin-left: 50px;
+    }
+    .lastbtn {
+      padding: 50px;
+    }
+    .lastbtn h2 {
+      font-size: 2rem;
+      margin-bottom: 50px;
+    }
+    .lastbtn a {
+      display: inline-block;
+      padding: 20px 60px;
+      font-size: 1.2rem;
+    }
+    .foot-info {
+     flex-direction: row;
+    }
+    .foot-1 {
+    
+      margin: 0;
+    }
+    .foot-2,.foot-3,.foot-4 {
+      margin-top: 70px;
+    }
+    .copyright {
+      text-align: right;
+    }
+    
+  
+  
+  @media only screen and (min-width: 1000px) {
+    .header {
+      background-image: url(images/bg-hero-desktop.svg);
+      background-position: center;
+      background-size: cover;
+    }
+    .mockups {
+     flex-direction: row;
+     text-align: left;
+    }
+   
+    .mockups1 {
+     flex: 2;
+     margin-right: 50px;
+    }
+
+    .mockups1 h1 {
+      font-size: 2.2rem;
+    }
+  }
+
+ }
